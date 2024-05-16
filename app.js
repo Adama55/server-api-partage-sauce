@@ -7,8 +7,8 @@ const sauceRoutes = require("./routes/sauce");
 const userRoutes = require("./routes/user");
 
 /** connection à mongoose*/
-/**mongodb+srv://Adama55:MongoDBFOFANAAdama232@atlascluster.q4jzdlf.mongodb.net/ */
-mongoose.connect('mongodb+srv://Adama555:Fofana232@atlascluster.q4jzdlf.mongodb.net/?retryWrites=true&w=majority',
+/**mongodb+srv://Adama55:Moster.q4jzdlf.mongodb.net/ */
+mongoose.connect('mongodb+srv://Atlascluster.q4jzdlf.mongodb.net/?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
